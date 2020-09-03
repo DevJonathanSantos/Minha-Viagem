@@ -1,0 +1,33 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+header#cabecalho img#icone{
+    padding:-20px;
+    height:110px
+}
+
+div#interface {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 4px black;
+    width: 1351px;
+    margin-left: -120px
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
