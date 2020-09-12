@@ -34,6 +34,9 @@ namespace MInhaViagem.Migrations
                     b.Property<string>("NomeDaImagem")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("NomeDoGif")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("Preco")
                         .HasColumnType("decimal(18, 2)");
 

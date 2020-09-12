@@ -15,7 +15,8 @@ namespace MInhaViagem.Migrations
                     Nome = table.Column<string>(nullable: true),
                     Descricao = table.Column<string>(nullable: true),
                     Preco = table.Column<decimal>(type: "decimal(18, 2)", nullable: false),
-                    NomeDaImagem = table.Column<string>(nullable: true)
+                    NomeDaImagem = table.Column<string>(nullable: true),
+                    NomeDoGif = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

@@ -6,7 +6,6 @@ namespace MInhaViagem.Models
     public class Produto
     {
         [Key]
-
         public int ID { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
@@ -15,5 +14,6 @@ namespace MInhaViagem.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Preco { get; set; }
         public string NomeDaImagem { get; set; }
+        public string NomeDoGif { get; set; }
     }
 }

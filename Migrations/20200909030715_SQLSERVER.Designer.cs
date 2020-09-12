@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MInhaViagem.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20200906010411_SQLSERVER")]
+    [Migration("20200909030715_SQLSERVER")]
     partial class SQLSERVER
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,6 +34,9 @@ namespace MInhaViagem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomeDaImagem")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NomeDoGif")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Preco")
